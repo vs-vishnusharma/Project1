@@ -20,7 +20,7 @@ repeat:no-repeat;
 }
 
 
-@media screen and (max-width: 576px){
+@media (max-width: 576px){
 
 .divmain{flex-direction:column;
     }
