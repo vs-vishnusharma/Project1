@@ -16,11 +16,11 @@ display:flex;
 .childdiv:nth-of-type(2){
 
 repeat:no-repeat;
-  background-image: url("../download.jpeg") !important;
+  background-image: url("../img1.jpeg") !important;
 }
 
 
-@media(max-width: 576px){
+@media screen and (max-width: 576px){
 
 .divmain{flex-direction:colomn;
     }
