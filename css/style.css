@@ -37,6 +37,8 @@ body{
   /*gap:40px;*/
   width:100%;
   justify-content:space-between;
+  float:left;
+  padding:25%;
   
    
 }
