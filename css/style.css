@@ -35,8 +35,9 @@ body{
   text-decoration:none;
   list-style:none;
   /*gap:40px;*/
+  width:100%;
   justify-content:space-between;
-   width:100%;
+   
 }
 .nav ul li a{
   text-decoration:none;
