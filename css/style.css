@@ -37,21 +37,27 @@ body{
 }
 
 .nav ul{ 
+  height:100%;
+  width:100%;
   display:flex;
-  text-decoration:none;
+  /*text-decoration:none;*/
+  align-items:center;
   list-style:none;
   /*gap:40px;*/
   /*justify-content:space-between;*/
   justify-content:space-around;
-  text-height:auto;
+  /*text-height:auto;*/}
 
+.nav ul li{
   
+  list-style-type:none;
+  padding-bottom:2%;
    
 }
 .nav ul li a{
   text-decoration:none;
   color:yellow;
-  font-size:20px;
+  font-size:1.5vw;
   position:absolute;
   
   
