@@ -48,9 +48,9 @@
   align-items: center;
 }
 
-.menu .menubar ul:hover{
-  color:white;
-}
+  .menubar ul li:hover{
+   color:white;}
+
 
 .menubar ul li {
   list-style: none;
