@@ -32,7 +32,7 @@
 .menu {
   width: 75%;
   height: 100%;
-  background-color: green;
+  background-color: red;
 }
 
 .menu .menubar {
@@ -48,6 +48,10 @@
   align-items: center;
 }
 
+.menu .menubar ul:hover{
+  color:white;
+}
+
 .menubar ul li {
   list-style: none;
   padding-bottom: 3%;
@@ -55,7 +59,7 @@
 
 .menubar ul li a {
   text-decoration: none;
-  color: magenta;
+  color: yellow;
   font-size: 1.5vw;
   position: absolute;
 }
