@@ -60,9 +60,6 @@
   position: absolute;
 }
 
-.menubar ul li a:hover {
-  color: white; }
-
 .menu .mobilebar {
   height: 100%;
   width: 0%;
