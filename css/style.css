@@ -79,6 +79,7 @@
 }
 
 .menu .menubar ul li .submenu li {
+  height:100%;
   list-style: none;
   padding: 5px 10px;
 }
