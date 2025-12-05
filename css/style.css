@@ -66,6 +66,7 @@
 }
 
 .menu .menubar ul li .submenu {
+  height:auto;
   display: none;
   position: absolute;
   background-color: magenta;
