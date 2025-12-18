@@ -57,7 +57,7 @@
   text-decoration: none;
   color: yellow;
   font-size: 1.5vw;
-  /*position: static !important;*/
+  position: static !important;
 }
 
 .menu .mobilebar {
