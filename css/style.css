@@ -58,6 +58,7 @@
   color: yellow;
   font-size: 1.5vw;
   position: static !important;
+  justify-content: center;
 }
 
 .menu .mobilebar {
