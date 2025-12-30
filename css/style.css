@@ -167,7 +167,7 @@
     border-radius: 2px;
     box-shadow: 0 7px 0 white, 0 -7px 0 white;
   }
-.header .menu s.mobile-open .menubar ul{
+.header .menu.mobile-open .menubar ul{
   display: flex;
   backgruond: grey;
   position:absolute;
