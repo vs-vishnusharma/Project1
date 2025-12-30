@@ -1,4 +1,3 @@
-
 fetch("header.html")
 .then(res => res.text())
 .then(data => {
@@ -35,16 +34,38 @@ fetch("header.html")
 				mobileBar.appendChild(dv);
 
 				dv.addEventListener("click", function(e) {
-          
 					e.stopPropagation();
 					menu.classList.toggle("mobile-open");
 				});
 			}
 
-			////
+			// sabse pehle --> menu items nikalne padenge
+			const menuList = document.querySelectorAll(".menu .menubar ul li");
 			
-				
-			}
+			menuList.forEach(li => {
+				// second step --> voh menu items filter karna jisme submenu ho
+				const submenuExists = li.querySelectorAll(".submenu");
+				if (submenuExists) {
+					// third step --> identify karna jis menu item pr click hua ho
+					const toggle = document.createElement("button");
+					toggle.className = "submenu-toggle";
+					toggle.setAttribute("aria-expanded", "false");
+					toggle.innerHTML = '<span style="display:inline-block; transform:rotate(90deeg);">&#9656;</span>';
+
+					// dummy li add in the end of the list
+					const firstLink = li.querySelector("a");
+
+					// fifth step --> submenu display karna jo menu item click hua ho
+					submenuExists.addEventListener("click", function (ev) {
+						ev.stopPropagation();
+						const isOpen = li.classList.toggle("open-submenu");
+						toggle.setAttribute("aria-expanded", isOpen? "true" : "false");
+					});
+					// fouth step --> close already open / close all submenu
+					
+				}
+			});
+			
 		}
 	});
 
