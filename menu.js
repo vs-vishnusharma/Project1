@@ -26,7 +26,8 @@ fetch("header.html")
 			const menuBar = document.querySelector(".menu .menubar ul");
 			const mobileBar = document.querySelector(".menu .mobilebar");
 
-			if(mobileBar && !mobileBar.querySelector(".hamburger")) {
+			if(mobileBar && !mobileBar.querySelector(".hamburger")) { 
+				console.log("Enter at 1");
 				const dv = document.createElement("div");
 				dv.className = "hamburger";
 				dv.setAttribute("aria-label", "Toggle menu");
