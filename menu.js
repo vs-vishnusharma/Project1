@@ -25,7 +25,7 @@ fetch("header.html")
 			const menu = document.querySelector(".menu");
 			const menuBar = document.querySelector(".menu .menubar ul");
 			const mobileBar = document.querySelector(".menu .mobilebar");
-
+            console.log(mobileBar);
 			if(mobileBar && !mobileBar.querySelector(".hamburger")) { 
 				console.log("Enter at 1");
 				const dv = document.createElement("div");
@@ -47,7 +47,7 @@ fetch("header.html")
 			menuList.forEach(li => {
 				// second step --> voh menu items filter karna jisme submenu ho
 				const submenuExists = li.querySelectorAll(".submenu"); // will return undefined or actual value node
-				console.log(submenuExists);
+		
 				if (submenuExists.length>0) {
 					li.classList.add("has-submenu");
 					// third step --> identify karna jis menu item pr click hua ho
