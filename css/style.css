@@ -188,6 +188,7 @@
 
   .header .menu .menubar ul li {
     padding: 5% 0;
+    justify-items:center;
   }
 
   .header .menu .menubar ul li a{
